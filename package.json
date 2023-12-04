@@ -1,0 +1,30 @@
+{
+  "name": "creaition-challenge",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:unit": "vitest --environment jsdom --root src/"
+  },
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "vue": "^3.3.8",
+    "vue3-lottie": "^3.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.0",
+    "@vue/test-utils": "^2.4.3",
+    "jest-canvas-mock": "^2.5.2",
+    "jsdom": "^23.0.1",
+    "vite": "^5.0.0",
+    "vitest": "^1.0.0"
+  },
+  "jest": {
+    "setupFiles": [
+      "jest-canvas-mock"
+    ]
+  }
+}
