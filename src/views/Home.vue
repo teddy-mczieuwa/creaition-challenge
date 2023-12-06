@@ -77,11 +77,9 @@ const morphImages = async () => {
   loading.value = true;
   try {
     const result = await morphImagePromise();
-    console.log(result);
     generatedImages.value = result;
     loading.value = false;
   } catch (error) {
-    console.error(error);
     loading.value = false;
   }
 };
