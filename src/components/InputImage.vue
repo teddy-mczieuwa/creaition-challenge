@@ -1,6 +1,6 @@
 <template>
   <div class="image-wrapper" @click="selectedImage" data-testid="image1">
-    <img class="image-input" :src="src" />
+    <img class="image-input" :src="src" alt="" />
     <button
       role="checkbox"
       :class="{ selected: selected }"

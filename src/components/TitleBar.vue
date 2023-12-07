@@ -1,7 +1,7 @@
 <template>
   <div class="title-bar">
     <a href="https://www.creaition.io">
-      <img class="logo" src="@/assets/creaition_logo.svg"
+      <img class="logo" src="@/assets/creaition_logo.svg" alt="logo"
     /></a>
   </div>
 </template>
